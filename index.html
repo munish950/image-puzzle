@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/puzzle.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/puzzle.js"></script>
+	
+</head>
+<body>
+	<div class="container-fluid fill">	
+		<div class="puzzle_head">
+			<div class="check_trial"><b>Trial:</b> <span id="trial">0</span></div>
+			<!--
+			<div class="high_score_div" style="display:none">
+				<b style="padding-left: 30%;">High Scores</b>
+				<ul id="time_trial_score">
+					
+				</ul>
+			</div>
+			-->
+			<div class="check_timer"><b>Timer:</b> <span id="timer">00:00</span></div>
+			
+		</div>
+		<div class="puzzle_box">
+			<table class="table">
+					<tr>
+						<td data-id="0"><img src="image/default.png"></td>
+						<td data-id="1"><img src="image/default.png"></td>
+						<td data-id="2"><img src="image/default.png"></td>
+						<td data-id="3"><img src="image/default.png"></td>
+						<td data-id="4"><img src="image/default.png"></td>
+						<td data-id="5"><img src="image/default.png"></td>
+						
+										
+					</tr>
+					<tr>							
+						<td data-id="6"><img src="image/default.png"></td>
+						<td data-id="7"><img src="image/default.png"></td>
+						<td data-id="8"><img src="image/default.png"></td>
+						<td data-id="9"><img src="image/default.png"></td>
+						<td data-id="10"><img src="image/default.png"></td>
+						<td data-id="11"><img src="image/default.png"></td>
+							
+												
+					</tr>
+					<tr>
+						<td data-id="12"><img src="image/default.png"></td>
+						<td data-id="13"><img src="image/default.png"></td>
+						<td data-id="14"><img src="image/default.png"></td>
+						<td data-id="15"><img src="image/default.png"></td>
+						<td data-id="16"><img src="image/default.png"></td>
+						<td data-id="17"><img src="image/default.png"></td>	
+												
+					</tr>
+					<tr>
+						<td data-id="18"><img src="image/default.png"></td>
+						<td data-id="19"><img src="image/default.png"></td>	
+						<td data-id="20"><img src="image/default.png"></td>
+						<td data-id="21"><img src="image/default.png"></td>
+						<td data-id="22"><img src="image/default.png"></td>
+						<td data-id="23"><img src="image/default.png"></td>	
+												
+					</tr>
+					<tr>
+						<td data-id="24"><img src="image/default.png"></td>
+						<td data-id="25"><img src="image/default.png"></td>
+						<td data-id="26"><img src="image/default.png"></td>
+						<td data-id="27"><img src="image/default.png"></td>
+						<td data-id="28"><img src="image/default.png"></td>
+						<td data-id="29"><img src="image/default.png"></td>
+						
+											
+					</tr>					
+					<tr>
+						
+						<td data-id="30"><img src="image/default.png"></td>
+						<td data-id="31"><img src="image/default.png"></td>
+						<td data-id="32"><img src="image/default.png"></td>
+						<td data-id="33"><img src="image/default.png"></td>
+						<td data-id="34"><img src="image/default.png"></td>
+						<td data-id="35"><img src="image/default.png"></td>
+						
+					</tr>
+					
+			</table>
+		</div>
+		<div class="action_div">
+			<input type="button" value="New Game" id="new_game">
+		</div>
+
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+			<span class="close">&times;</span>
+			<span class="final_text">&nbsp;</span>
+		  </div>
+
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
